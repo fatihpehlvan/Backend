@@ -1,45 +1,37 @@
-**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
+## Authentication Backend
 
-When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
+This is a authentication backend created by using Spring Boot and MySQL
 
-*We recommend that you open this README in another tab as you perform the tasks below. You can [watch our video](https://youtu.be/0ocf7u76WSo) for a full demo of all the steps in this tutorial. Open the video in a new tab to avoid leaving Bitbucket.*
+## Requirements
 
----
+* MySQL
 
-## Edit a file
+## How to Start the Application
+* Clone the repository
+* Install packages in pom.xml
+* Fill the application-example.properties and change the file name to -> application.properties.
+* Run the code
 
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
 
-1. Click **Source** on the left side.
-2. Click the README.md link from the list of files.
-3. Click the **Edit** button.
-4. Delete the following text: *Delete this line to make a change to the README from Bitbucket.*
-5. After making your change, click **Commit** and then **Commit** again in the dialog. The commit page will open and you’ll see the change you just made.
-6. Go back to the **Source** page.
+## Endpoints
 
----
+Some enpoint screenshots
 
-## Create a file
+Add a new user to the application
+![image](https://user-images.githubusercontent.com/73739817/219645920-ffb4911e-eb2b-483a-a194-5641c2f8c2af.png)
 
-Next, you’ll add a new file to this repository.
+Update an existing user information
+![image](https://user-images.githubusercontent.com/73739817/219646459-fad5abc8-2d59-42b4-a2eb-1b36f46637c7.png)
 
-1. Click the **New file** button at the top of the **Source** page.
-2. Give the file a filename of **contributors.txt**.
-3. Enter your name in the empty file space.
-4. Click **Commit** and then **Commit** again in the dialog.
-5. Go back to the **Source** page.
+Delete an existing user
+![image](https://user-images.githubusercontent.com/73739817/219646551-2e075f37-f748-4e98-86c2-17c28b345cc5.png)
 
-Before you move on, go ahead and explore the repository. You've already seen the **Source** page, but check out the **Commits**, **Branches**, and **Settings** pages.
 
----
+Get all users
+![image](https://user-images.githubusercontent.com/73739817/219646740-a68bed80-9076-4f5b-ab60-9b6fadd9b901.png)
 
-## Clone a repository
+Get user by id
+![image](https://user-images.githubusercontent.com/73739817/219646814-90a3237e-bff6-462c-ba79-517bc7a95c7c.png)
 
-Use these steps to clone from SourceTree, our client for using the repository command-line free. Cloning allows you to work on your files locally. If you don't yet have SourceTree, [download and install first](https://www.sourcetreeapp.com/). If you prefer to clone from the command line, see [Clone a repository](https://confluence.atlassian.com/x/4whODQ).
-
-1. You’ll see the clone button under the **Source** heading. Click that button.
-2. Now click **Check out in SourceTree**. You may need to create a SourceTree account or log in.
-3. When you see the **Clone New** dialog in SourceTree, update the destination path and name if you’d like to and then click **Clone**.
-4. Open the directory you just created to see your repository’s files.
-
-Now that you're more familiar with your Bitbucket repository, go ahead and add a new file locally. You can [push your change back to Bitbucket with SourceTree](https://confluence.atlassian.com/x/iqyBMg), or you can [add, commit,](https://confluence.atlassian.com/x/8QhODQ) and [push from the command line](https://confluence.atlassian.com/x/NQ0zDQ).
+Login
+![image](https://user-images.githubusercontent.com/73739817/219646864-b84f38b4-b97a-4f34-922f-e64542dd477d.png)
